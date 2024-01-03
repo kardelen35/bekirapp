@@ -1,9 +1,13 @@
 import React from "react";
-import MenuItem from "./MenuItem";
+import Head from "next/head";
 
 const AdvertisementSection = () => {
   return (
     <div className="relative mt-10">
+      <Head>
+        <title>Advertisement</title>
+        <meta name="advertisement" content="all" />
+      </Head>
       <img
         src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Hero"

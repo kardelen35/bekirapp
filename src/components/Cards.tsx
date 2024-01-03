@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Head from "next/head";
 
 interface CardDetail {
   title: string;
@@ -150,6 +151,11 @@ const Cards: React.FC = () => {
 
   return (
     <div className="flex flex-wrap">
+      <Head>
+        <title>Cards</title>
+        <meta name="cards" content="all" />
+      </Head>
+
       {cardDetail.map((detail, index) => (
         <div key={index} className="w-1/4 p-2">
           <a

@@ -14,7 +14,7 @@ export const metadata = {
 };
 
 const Layout = ({ children }: LayoutProps) => {
-  const canonicalUrl = "https://testhediyedomain.online/";
+  const canonicalUrl = "https://www.geekstorehub.com/";
   return (
     <>
       <Head>

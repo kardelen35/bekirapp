@@ -8,7 +8,7 @@ interface LayoutProps {
 }
 
 export const metadata = {
-  title: "Bekir App",
+  title: "GeeksHub",
   description: "BekirApp",
   content: "all",
 };

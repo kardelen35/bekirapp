@@ -9,9 +9,9 @@ const AdvertisementSection = () => {
         <meta name="advertisement" content="all" />
       </Head>
       <img
-        src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="/yodaImage.jpg"
         alt="Hero"
-        className="w-full h-20 object-cover lg:h-10vh xl:h-10vh lg:w-70vw xl:w-70vw"
+        className="w-full h-20 object-fill lg:h-10vh xl:h-10vh lg:w-70vw xl:w-70vw"
       />
       <div className="absolute h-20 inset-0 flex items-center justify-center bg-black bg-opacity-50">
         <div className="text-center text-white">

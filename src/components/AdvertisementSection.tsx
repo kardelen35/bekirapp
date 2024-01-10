@@ -15,10 +15,9 @@ const AdvertisementSection = () => {
       />
       <div className="absolute h-20 inset-0 flex items-center justify-center bg-black bg-opacity-50">
         <div className="text-center text-white">
-          <h1 className="text-4xl font-bold">WE ARE A LANDING PAGE</h1>
-          <p className="text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <h1 className="text-4xl font-bold">
+            Geek Store Hub #Marvel #StarWars #THeBoyz #HarryPotter #LOTR
+          </h1>
         </div>
       </div>
     </div>

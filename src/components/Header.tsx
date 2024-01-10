@@ -16,7 +16,9 @@ export default function Header() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="#">
-                <h2 className="text-2xl text-black font-bold">BekirApp</h2>
+                <h2 className="text-2xl text-black font-bold">
+                  Geek Store Hub
+                </h2>
               </a>
               <div className="md:hidden">
                 <button
@@ -66,7 +68,7 @@ export default function Header() {
                 <li className="text-black">
                   <Link href="/">Home</Link>
                 </li>
-                <li className="text-black">
+                {/* <li className="text-black">
                   <Link href="/blogs">Blogs</Link>
                 </li>
                 <li className="text-black">
@@ -74,7 +76,7 @@ export default function Header() {
                 </li>
                 <li className="text-black">
                   <Link href="/contact">Contact US</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -22,31 +22,19 @@ const Cards: React.FC = () => {
       title: "Title 2",
       buttonText: "Next",
       phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
+      card_image: "/orumcek.jpg",
     },
     {
       title: "Title 3",
       buttonText: "Go",
       phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
+      card_image: "/belirgin.jpg",
     },
     {
       title: "Title 4",
       buttonText: "Next",
       phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 4",
-      buttonText: "Next",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 4",
-      buttonText: "Next",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
+      card_image: "/monkey.jpg",
     },
     {
       title: "Clock",
@@ -58,67 +46,19 @@ const Cards: React.FC = () => {
       title: "Title 2",
       buttonText: "Next",
       phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
+      card_image: "/orumcek.jpg",
     },
     {
       title: "Title 3",
       buttonText: "Go",
       phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
+      card_image: "/belirgin.jpg",
     },
     {
       title: "Title 4",
       buttonText: "Next",
       phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 4",
-      buttonText: "Next",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 4",
-      buttonText: "Next",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Clock",
-      buttonText: "Go",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 2",
-      buttonText: "Next",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 3",
-      buttonText: "Go",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 4",
-      buttonText: "Next",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 4",
-      buttonText: "Next",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
-    },
-    {
-      title: "Title 4",
-      buttonText: "Next",
-      phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
+      card_image: "/monkey.jpg",
     },
   ];
 
@@ -138,17 +78,18 @@ const Cards: React.FC = () => {
       </Head>
 
       {cardDetail.map((detail, index) => (
-        <div key={index} className="w-1/2 md:w-1/4 p-2">
+        <div key={index} className="w-1/2 md:w-1/4 p-2 flex">
           <a
             href="#"
             onClick={() => handleWhatsAppRedirect(detail.phone_number)}
           >
-            <img
-              className="rounded-lg"
-              src={detail.card_image}
-              alt=""
-              style={{ width: "100%" }}
-            />
+            <div className="w-full overflow-hidden">
+              <img
+                className="rounded-lg object-cover w-full h-full"
+                src={detail.card_image}
+                alt=""
+              />
+            </div>
           </a>
         </div>
       ))}

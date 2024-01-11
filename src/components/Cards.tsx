@@ -138,7 +138,7 @@ const Cards: React.FC = () => {
       </Head>
 
       {cardDetail.map((detail, index) => (
-        <div key={index} className="w-1/4 p-2">
+        <div key={index} className="w-1/2 md:w-1/4 p-2">
           <a
             href="#"
             onClick={() => handleWhatsAppRedirect(detail.phone_number)}

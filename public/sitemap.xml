@@ -3,8 +3,5 @@
       xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.geekstorehub.com/</loc>
-    <image:image>
-      <image:loc>https://www.geekstorehub.com/yodaImage.jpg</image:loc>
-    </image:image>
   </url>
 </urlset>

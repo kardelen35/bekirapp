@@ -6,7 +6,11 @@ const AdvertisementSection = () => {
     <div className="relative mt-10">
       <Head>
         <title>Advertisement</title>
-        <meta name="advertisement" content="all" />
+        <meta
+          name="advertisement"
+          title="Advertisement"
+          content="noImageIndex"
+        />
       </Head>
       <img
         src="/yodaImage.jpg"

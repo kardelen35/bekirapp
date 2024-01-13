@@ -8,7 +8,7 @@ const Page = () => {
     <div className="grid gap-4">
       <Head>
         <title>Pages</title>
-        <meta name="pages" content="all" />
+        <meta name="pages" content="noImageIndex" />
       </Head>
       <AdvertisementSection />
       <Cards />

@@ -19,7 +19,7 @@ const AdvertisementSection = () => {
       />
       <div className="absolute h-20 inset-0 flex items-center justify-center bg-black bg-opacity-50">
         <div className="text-center text-white">
-          <h1 className="text-4xl font-bold">
+          <h1 className="lg:text-4xl md:text-xl sm:text-xl font-bold">
             Geek Store Hub #Marvel #StarWars #THeBoyz #HarryPotter #LOTR
           </h1>
         </div>

@@ -4,22 +4,22 @@ import Head from "next/head";
 import { useState } from "react";
 
 const categories = [
-  "Home",
-  "Home2",
-  "Home3",
-  "Home4",
-  "Home",
-  "Home2",
-  "Home3",
-  "Home4",
-  "Home",
-  "Home2",
-  "Home3",
-  "Home4",
-  "Home",
-  "Home2",
-  "Home3",
-  "Home4",
+  {
+    title: "Home",
+    link: "/",
+  },
+  {
+    title: "About",
+    link: "/about",
+  },
+  {
+    title: "Services",
+    link: "/services",
+  },
+  {
+    title: "Pricing",
+    link: "/pricing",
+  },
 ];
 
 const Header = () => {
@@ -34,17 +34,17 @@ const Header = () => {
   return (
     <div>
       <Head>
-        <title>Create Next Responsive Navbar With Tailwind CSS</title>
-        <meta name="description" content="all" />
+        <title>Header</title>
+        <meta name="robot" content="index" />
       </Head>
       <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 relative z-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="#"
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
+              Geek Store Hub
             </span>
           </a>
           <button
@@ -81,11 +81,11 @@ const Header = () => {
               {visibleCategories.map((category, index) => (
                 <li key={index}>
                   <a
-                    href="#"
+                    href={category.link}
                     className="block py-2 px-3 text-black rounded"
                     aria-current="page"
                   >
-                    {category}
+                    {category.title}
                   </a>
                 </li>
               ))}

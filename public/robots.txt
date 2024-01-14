@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap:https://www.geekstorehub.com/sitemap.xml
-Sitemap:https://geekstorehub.com/sitemap.xml
+Sitemap:https://www.geekstorehub.com/sitemap
+Sitemap:https://geekstorehub.com/sitemap

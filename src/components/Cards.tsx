@@ -16,49 +16,49 @@ const Cards: React.FC = () => {
       title: "Clock",
       buttonText: "Go",
       phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
+      card_image: "/bekirImage.jpeg",
     },
     {
       title: "Title 2",
       buttonText: "Next",
       phone_number: "+905315428789",
-      card_image: "/orumcek.jpg",
+      card_image: "/bekirImage.jpeg",
     },
     {
       title: "Title 3",
       buttonText: "Go",
       phone_number: "+905315428789",
-      card_image: "/belirgin.jpg",
+      card_image: "/bekirImage.jpeg",
     },
     {
       title: "Title 4",
       buttonText: "Next",
       phone_number: "+905315428789",
-      card_image: "/monkey.jpg",
+      card_image: "/bekirImage.jpeg",
     },
     {
       title: "Clock",
       buttonText: "Go",
       phone_number: "+905315428789",
-      card_image: "/yodaImage.jpg",
+      card_image: "/bekirImage.jpeg",
     },
     {
       title: "Title 2",
       buttonText: "Next",
       phone_number: "+905315428789",
-      card_image: "/orumcek.jpg",
+      card_image: "/bekirImage.jpeg",
     },
     {
       title: "Title 3",
       buttonText: "Go",
       phone_number: "+905315428789",
-      card_image: "/belirgin.jpg",
+      card_image: "/bekirImage.jpeg",
     },
     {
       title: "Title 4",
       buttonText: "Next",
       phone_number: "+905315428789",
-      card_image: "/monkey.jpg",
+      card_image: "/bekirImage.jpeg",
     },
   ];
 
@@ -78,7 +78,7 @@ const Cards: React.FC = () => {
       </Head>
 
       {cardDetail.map((detail, index) => (
-        <div key={index} className="w-1/2 md:w-1/4 p-2 flex">
+        <div key={index} className="w-1/2 md:w-1/4 p-1 flex">
           <a
             href="#"
             onClick={() => handleWhatsAppRedirect(detail.phone_number)}
